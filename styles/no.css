@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "AbolitionTest-Regular";
+  src: url("/styles/font/AbolitionTest-Regular.otf");
+}
+@font-face {
+  font-family: "Amplify";
+  src: url("/styles/font/Amplify_PersonalUseOnly.ttf");
+}
+
+@font-face {
+  font-family: "Din";
+  src: url("/styles/font/DINNextW1G-Regular.otf");
+}
+
+body {
+  background-color: #ffdee3;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  font-family: "AbolitionTest-Regular";
+  font-size: 70px;
+  line-height: 60%;
+}
+
+.sub-header {
+  margin: 5px;
+}
+.sub-header > h3 {
+  font-family: "Din";
+  font-size: 20px;
+  margin: 0px;
+  text-align: center;
+}
+.threat-gif {
+  width: 200px;
+  border-radius: 6px;
+}
+
+.ok-btn {
+  background-color: #ff6f77;
+  font-family: "Din";
+  color: white;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid #ff6f77;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.ok-btn:hover {
+  background-color: #fcfcfc;
+  border: 2px solid #ff6f77;
+  color: #161616;
+  cursor: pointer;
+}

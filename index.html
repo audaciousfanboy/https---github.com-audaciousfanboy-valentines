@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentines</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="sub-header">Will you be my</div>
+      <div class="header">Valentine?</div>
+      <div class="valentine-terms">
+        <input type="checkbox" id="agree" />
+        <label for="agree">
+          I agree to
+          <a href="insert link for terms and conditions" target="_blank"
+            >terms and conditions</a
+          ></label
+        >
+      </div>
+      <div class="button-container">
+        <div>
+          <button class="yes-btn" onclick="redirectToYes()">Yes</button>
+        </div>
+        <div><button class="no-btn" onclick="redirectToNo()">No</button></div>
+      </div>
+
+      <div class="gif">
+        <img
+          class="gif"
+          src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGx1cWJjamNhM2k4dXFhbnloYXJyN3hrZDQ0ZDlnNGFuM3Rtcml4cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c76IJLufpNwSULPk77/giphy.gif"
+          alt="gif-heart"
+        />
+      </div>
+    </div>
+
+    <!--JS Script Here-->
+    <script>
+      function redirectToYes() {
+        window.location.href = "./yes.html"; // Replace with your desired URL
+      }
+
+      function redirectToNo() {
+        window.location.href = "./no.html"; // Replace with your desired URL
+      }
+    </script>
+  </body>
+</html>

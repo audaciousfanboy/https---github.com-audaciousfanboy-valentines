@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "AbolitionTest-Regular";
+  src: url("/styles/font/AbolitionTest-Regular.otf");
+}
+@font-face {
+  font-family: "Amplify";
+  src: url("/styles/font/Amplify_PersonalUseOnly.ttf");
+}
+
+@font-face {
+  font-family: "Din";
+  src: url("/styles/font/DINNextW1G-Regular.otf");
+}
+
+body {
+  background-color: #ffdee3;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-container > h1 {
+  font-family: "Amplify";
+  color: #161616;
+  font-size: 85px;
+  margin: 0px;
+  font-weight: 100;
+  line-height: 80%;
+}
+.main-container > h2 {
+  font-family: "AbolitionTest-Regular";
+  color: #161616;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.activity-flex {
+  display: flex;
+  flex-direction: row;
+  border-radius: 6px;
+  background-color: #fbf4f4;
+  margin-bottom: 10px;
+}
+
+.item {
+  padding: 5px 10px 5px 10px;
+  background-color: #fbf4f4;
+  border-radius: 6px;
+}
+
+.activity-flex > div > p {
+  font-family: "Din";
+  color: #161616;
+  font-size: 18px;
+}
+.ok-btn {
+  background-color: #ff6f77;
+  font-family: "Din";
+  color: white;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid #ff6f77;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.ok-btn:hover {
+  background-color: #fcfcfc;
+  border: 2px solid #ff6f77;
+  color: #161616;
+  cursor: pointer;
+}

@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "AbolitionTest-Regular";
+  src: url("/styles/font/AbolitionTest-Regular.otf");
+}
+@font-face {
+  font-family: "Amplify";
+  src: url("/styles/font/Amplify_PersonalUseOnly.ttf");
+}
+
+@font-face {
+  font-family: "Din";
+  src: url("/styles/font/DINNextW1G-Regular.otf");
+}
+
+body {
+  background-color: #ffdee3;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  border: 2px solid red;
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  border: 2px solid rgb(0, 255, 85);
+  /*Content Specification Below  */
+  font-family: "AbolitionTest-Regular";
+  color: #161616;
+  font-size: 38px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  border: 2px solid rgb(217, 255, 0);
+  /*Content Specification Below  */
+  font-family: "Amplify";
+  color: #161616;
+  font-size: 148px;
+  line-height: 80%;
+}
+
+.valentine-terms {
+  border: 2px solid rgb(0, 0, 0);
+  width: 600px;
+  /*Content Specification Below  */
+  font-family: "Din";
+  color: #161616;
+  font-size: 18px;
+  line-height: 80%;
+  padding: 10px 0px 10px 0px;
+}
+
+/*Button CSS*/
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 600px;
+  border: 2px solid rgb(133, 4, 4);
+}
+
+.button-container > div {
+  padding: 5px;
+}
+
+.yes-btn {
+  background-color: #ff6f77;
+  font-family: "Din";
+  color: white;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid #ff6f77;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.yes-btn:hover {
+  background-color: #fcfcfc;
+  border: 2px solid #ff6f77;
+  color: #161616;
+  cursor: pointer;
+}
+.no-btn {
+  background-color: #ffdee3;
+  font-family: "Din";
+  color: #161616;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid #ff6f77;
+  border-radius: 4px;
+}
+.no-btn:hover {
+  background-color: #ff6f77;
+  font-family: "Din";
+  color: white;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid #ff6f77;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.gif {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+}
